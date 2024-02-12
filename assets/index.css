@@ -1,0 +1,21 @@
+@import "style.css";
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(index.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #fff;
+  font-size: 70px;
+}

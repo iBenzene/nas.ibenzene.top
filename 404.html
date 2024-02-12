@@ -1,10 +1,63 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>404 Not Found</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - 埃苯泽の空间</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <style>
+      header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url(assets/404.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: left;
+      }
+
+      .title {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+      }
+
+      .title h1 {
+        color: #fff;
+        font-size: 60px;
+      }
+
+      .title h1:first-child {
+        font-size: 100px;
+      }
+    </style>
   </head>
-  <body bgcolor="white">
-    <center><h1>404 Not Found</h1></center>
-    <hr />
-    <center>@iBenzene</center>
+  <body>
+    <header>
+      <div class="main">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li>
+            <a href="admin.html" target="_blank">控制台</a>
+          </li>
+          <li>
+            <a href="cockpit.html" target="_blank">Cockpit</a>
+          </li>
+          <li>
+            <a href="portainer.html" target="_blank">Portainer</a>
+          </li>
+          <li>
+            <a href="drive.html" target="_blank">云盘</a>
+          </li>
+        </ul>
+      </div>
+      <div class="title">
+        <h1>404</h1>
+        <h1>呀！页面飞走了</h1>
+      </div>
+    </header>
   </body>
 </html>
